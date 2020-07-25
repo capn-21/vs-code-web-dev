@@ -1,0 +1,33 @@
+   <html>
+    <head>
+   
+    </head>
+    <body>
+    <form  name='aadhar_card' onsubmit="return formvalidate();">
+        <legend><b>Aadhar form</b></leged><br>
+            <fieldset>
+        Name:<br>
+        <input type="text" name="name" ><br>
+        M phone:<br>
+        <input type="numbers" name="Mnumber" ><br>
+        Address:<br>
+        <input type="text" name="address" ><br>
+        Gender:<br>
+        <select name>male
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select><br>
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset"></fieldset>
+        <script type="text/javascript" src="validate.js">
+        </script>
+    
+    </form> 
+    <script>
+        function myFunction() {
+          document.getElementById("myForm").onsubmit(validate());
+        }
+        </script>
+   </body>
+   </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+      How to insert an item into 
+      array at specific index in JavaScript? 
+  </title> 
+</head> 
+  
+<body> 
+     
+     
+    <p>The original array is: 1, 2, 3, 4, 5</p> 
+    <p>Click on the button to insert -99 at index 2</p> 
+    <p>The new array is: <span class="outputArray"></span> 
+  </p> 
+  
+    <button onclick="insertElement()">Insert element</button> 
+    <script type="text/javascript"> 
+        function insertElement() { 
+            var names=["ram","sham","rohan","sudhir"]; 
+            let index = 2; 
+            let element = -99; 
+  
+            names.splice(index, 0, element); 
+            document.querySelector('.outputArray').textContent = 
+              names; 
+              
+        } 
+    </script> 
+</body> 
+  
+</html> 
