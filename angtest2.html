@@ -1,0 +1,15 @@
+<html>
+<script src="angular.js"></script>
+<body>
+    <div ng-app="ee" ng-controller="cc">
+        {{fn}}
+    </div>
+    <script>
+        var app= angular.module("ee",[]);
+        app.controller("cc",function($scope){
+            $scope.fn="wwwenu";
+
+        });
+    </script>
+</body>
+</html>
