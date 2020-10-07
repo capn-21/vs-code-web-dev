@@ -1,0 +1,24 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+<script src="Q1-4.js"></script>
+<body ng-app="myapp">
+ <h2> <div ng-controller="DisplayName">Q1: {{string}}</div><br>
+    <div ng-controller="addition">Q2: 354+675= <u>{{a+b}}</u></div><br>
+    <div ng-controller="cricket">
+        Q3:Cricket players<ul>
+            <li ng-repeat="a in players">{{a}}</li>
+        </ul>
+
+     <table border="4px">
+        <tr>Q4:
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr ng-repeat="x in table">
+            <td>{{x.name}}</td>
+            <td>{{x.country}}</td>
+        </tr>
+    </table>
+    </div></h2>
+</body>
+</html>
