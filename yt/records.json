@@ -1,0 +1,32 @@
+[
+    {
+        "firstname":"omkar",
+        "lastname":"chalke",
+        "gender":"male",
+        "salary":"120000"
+    },
+    {
+        "firstname":"ram",
+        "lastname":"suuke",
+        "gender":"male",
+        "salary":"10000"
+    },
+    {
+        "firstname":"roma",
+        "lastname":"jon",
+        "gender":"female",
+        "salary":"25000"
+    },
+    {
+        "firstname":"nikhil",
+        "lastname":"tan",
+        "gender":"male",
+        "salary":"1200"
+    },
+    {
+        "firstname":"alex",
+        "lastname":"sanchex",
+        "gender":"female",
+        "salary":"9 000"
+    }
+]

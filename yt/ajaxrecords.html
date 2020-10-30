@@ -1,12 +1,9 @@
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<script src="Q7.js"></script>
-<body ng-app="app">
-   <h3><div ng-controller="cc">{{var}}</div><br>
-
-    {{var}}</h3> 
-
-     <table style="width:500px;border:2px solid black;">
+<script src="angular.js"></script>
+<script src="ajaxrecords.js"></script>
+<body ng-app="myapp">
+    <div ng-controller="data">
+        <table style="width:500px;border:2px solid black;">
             <thead>
                 <tr>
                     <th>firstname</th>
@@ -23,6 +20,10 @@
                     <td>{{a.salary | currency:"$"}}</td>
                 
                 </tr>
-    <adsd> </adsd>
+            </tbody>
+
+
+        </table>
+    </div>
 </body>
 </html>

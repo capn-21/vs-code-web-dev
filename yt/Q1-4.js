@@ -11,12 +11,12 @@ $scope.string="Hello World";
 .controller("cricket",function($scope){
     $scope.players=["Sachin Tendulkar","Virat Kolhi","Suresh Raina","Hardik Pandya"];
    
-    $scope.table=[{name:"Sachin Tendulkar",country:"india"},
-    {name:"Mahendra Singh Dhoni",country:"India"},
-    {name:"Sachin Tendulkar",country:"india"},
-    {name:"David Warner",country:"australia"},
-    {name:"Kane Williamson",country:"New Zealand"},
-    {name:"Virat Kolhi",country:"india"},
-    {name:"Mitchell Starc",country:"australia"}];
+    $scope.table=[{name:"Sachin Tendulkar",class:"india"},
+    {name:"Mahendra Singh Dhoni",class:"India"},
+    {name:"Sachin Tendulkar",class:"india"},
+    {name:"David Warner",class:"australia"},
+    {name:"Kane Williamson",class:"New Zealand"},
+    {name:"Virat Kolhi",class:"india"},
+    {name:"Mitchell Starc",class:"australia"}];
 })
 
